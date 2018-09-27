@@ -1,0 +1,457 @@
+/* reset */
+/* a:hover {
+  color: blue;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #1E1F20;
+  margin-left: 31px;
+  margin-right: 31px;
+  margin-top: 19px;
+}
+
+[name="read-post"] {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  background-color: Transparent;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+[name="heart"] {
+  color: white;
+}
+
+
+/* html, body{
+  width: 100%;
+  height: 100%;
+}
+header */
+
+header ul {
+  display: flex;
+  /* border-style: solid; */
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header h1 {
+  font-size: 1em;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+}
+
+.fa-search, .fa-bars {
+  color: #626363;
+  font-size: 1em;
+  padding-top: 20px;
+}
+
+
+
+/* main */
+
+.office {
+  background-image: url(https://i.imgur.com/2348X6C.jpg);
+  background-size: 317px 175px;
+  width: 350px;
+  height: 250px;
+  background-repeat: no-repeat;
+  margin-bottom: -68px;
+}
+
+.top-left {
+  color: white;
+  padding-left: 1em;
+  font-family: 'Francois One', sans-serif;
+
+}
+
+.bottom-left {
+  padding-top: 70px;
+  padding-left: 5px;
+}
+
+.bottom-left button {
+  font-size: 7px;
+}
+
+
+h2 {
+  margin-bottom: -5px;
+}
+
+.top-left p {
+  font-size: .5em;
+}
+
+/* containter 2 */
+
+.still-picture img {
+  height: 110px;
+}
+
+.olaf {
+  background-image: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2014%2F08%2Folaf-hussein-2014-2015-lookbook-1.jpg?q=75&w=800&cbr=1&fit=max);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px;
+  width: 210px;
+  position: relative;
+  left: 7px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-left2 h2 {
+  font-size: .6em;
+  color: white;
+}
+
+.top-left2 p {
+  font-size: 7px;
+  color: white;
+}
+
+.top-left2 {
+  padding-left: .3em;
+  font-family: 'Francois One', sans-serif;
+}
+
+.bottom-left2 {
+  margin-top: 35px;
+  font-size: .7em;
+}
+
+.bottom-left2 button {
+  color: white;
+  font-size: 5px;
+  position: relative;
+  left: 7px;
+  top: 5px;
+
+}
+
+/* container 3 */
+
+.airplane {
+  background-image: url(https://i.imgur.com/7JH7TP8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 205px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.top-right {
+  padding-left: 45px;
+  padding-top: 4px;
+  font-family: 'Francois One', sans-serif;
+  color: white;
+
+}
+
+.top-right h2 {
+  font-size: .7em;
+  padding-left: 80px;
+}
+
+.top-right p {
+  font-size: 5px;
+  padding-left: 80px;
+}
+
+.bottom-right button {
+  color: white;
+  font-size: 5px;
+  padding-left: -60px;
+  margin-left: 120px;
+  margin-top: 17px;
+}
+
+
+
+.gear {
+  background-image: url(https://minimalissimo.com/cms/wp-content/uploads/2014/01/lapka_bam_11-e1390056024911.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 205px;
+  width: 105px;
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 5px; */
+  margin-right: .45rem;
+  position: relative;
+  top: 5px;
+  left: 2px;
+  /* width: 90px; */
+
+  /* margin-left: 10px; */
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-around | space-evenly;
+
+}
+.sub-container {
+  display: flex;
+  /* align-items: flex-start | flex-end | center | space-between | baseline | space-around; */
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: .45rem;
+
+}
+
+.watch-car {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.top-left3 {
+  padding-left: 5px;
+}
+.top-left3 h2 {
+  font-size: .7em;
+  font-family: 'Francois One', sans-serif;
+  color: white;
+}
+
+.top-left3 p {
+  font-size: 5px;
+  font-family: 'Francois One', sans-serif;
+  color: white;
+}
+
+.bottom-left3 {
+  margin-top: 140px;
+  font-size: 7px;
+  position: relative;
+  top: -10px;
+  left: -50px;
+}
+
+.bottom-left3 button {
+  font-size: 5px;
+  position: relative;
+  top: 35px;
+
+}
+
+.watch {
+  background-image: url(https://www.ziiiro.com/wp-content/uploads/2014/08/orbit.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 95px;
+  /* margin-right: .25rem; */
+  position: relative;
+  right: -2px;
+  top: 5px;
+}
+
+
+.top-left4 h2 {
+  font-size: .5em;
+  font-family: 'Francois One', sans-serif;
+  color: white;
+  padding-left: 7px;
+}
+
+.bottom-left4 p {
+  font-size: .5em;
+  color: white;
+}
+
+.bottom-left4 button {
+  font-size: 5px;
+  margin-top: 45px;
+  margin-left: 5px;
+}
+
+.cost button {
+  border-style: solid;
+  color: white;
+  background-color: light-grey;
+  font-size: 5px;
+  margin-left: 65px;
+}
+
+
+
+.self-driving {
+  background-image: url(https://wallpapercave.com/wp/Y8Pd8oV.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 95px;
+  position: relative;
+  top: 5px;
+  left: 11px;
+
+}
+
+.center-top {
+  font-size: 4px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  left: 34px;
+
+}
+
+
+.center h1 {
+  color: white;
+  font-family: 'Francois One', sans-serif;
+  font-size: 7px;
+  margin-bottom: -5px;
+  position: relative;
+  left: 20px;
+
+}
+
+#space {
+  margin-bottom: 4px;
+}
+
+.center p {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4px;;
+  position: relative;
+  left: 0px;
+  font-style: italic;
+
+}
+
+#gap {
+  margin-bottom: -2px;
+}
+
+#align {
+padding-left: 16px;
+}
+
+.center-bottom {
+  position: relative;
+  left: 24px;
+  bottom: -5px;
+}
+
+.center-bottom button {
+  font-size: 4px;
+}
+
+
+
+
+.smieg {
+  background-image: url(https://media.istockphoto.com/photos/office-table-desk-with-set-of-colorful-supplies-white-blank-picture-id515442844?k=6&m=515442844&s=612x612&w=0&h=TMdez5nfwogQln2mtUfroTQT1mxyQwGK8-s7fWRD6uk=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px;
+  width: 180px;
+  margin-right: .30rem;
+
+}
+
+.balloon {
+  background-image: url(https://mymodernmet.com/wp/wp-content/uploads/archive/hiYcgwdcU8oMARTrzFYa_1082070008.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px;
+  width: 180px;
+  position: relative;
+  left: 5px;
+}
+
+
+
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  /* margin-top: 3px; */
+}
+
+.smieg-text h1 {
+  color: white;
+  font-size: 12px;
+
+}
+
+.smieg-text p {
+  color: white;
+  font-size: 7px;
+}
+
+.balloon-text h1 {
+  color: white;
+  font-size: 12px;
+}
+
+.balloon-text p {
+  color: white;
+  font-size: 7px;
+}
+
+.tech-post {
+  position: relative;
+  top: 40px;
+}
+
+.tech-post button {
+  font-size: 7px;
+}
+
+
+.balloon-post {
+  position: relative;
+  top: 40px;
+  left: 5px;
+}
+
+.balloon-post button {
+font-size: 7px;
+}
+
+.container-4 {
+  position: relative;
+  top: 9px;
+}
+/* .container {
+  display: flex;
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+} */
+
+/* footer */
